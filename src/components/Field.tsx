@@ -11,7 +11,6 @@ interface FieldProps {
 const Field = (props: any) => {
 
   const handleEditorChange = (content: any, editor: any) => {
-    console.log('Content was updated:', content);
     props.sdk.field
       .setValue(content)
         .then((data: any) => {
