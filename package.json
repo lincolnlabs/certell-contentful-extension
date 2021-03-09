@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@contentful/field-editor-markdown": "^0.14.0",
+    "@contentful/field-editor-rich-text": "^0.18.1",
     "@contentful/field-editor-single-line": "^0.11.4",
     "@contentful/field-editor-test-utils": "^0.8.3",
     "@contentful/forma-36-fcss": "^0.2.14",
@@ -15,8 +17,12 @@
     "@types/node": "^14.14.20",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@wiris/mathtype-tinymce5": "^7.24.6",
+    "codemirror": "^5.59.4",
     "contentful-ui-extensions-sdk": "^3.29.1",
     "cross-env": "^7.0.3",
+    "katex": "^0.12.0",
+    "mathjax": "^3.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -42,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/katex": "^0.11.0"
   }
 }
