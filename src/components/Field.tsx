@@ -10,6 +10,12 @@ interface FieldProps {
 }
 
 const Field = (props: any) => {
+  let [math, setMath] = useState('');
+
+
+  useEffect(() => {
+    props.sdk.window.updateHeight(600);
+  })
 
   return <div>
     {/* <div className="katex-keyboard">
