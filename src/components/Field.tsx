@@ -22,14 +22,11 @@ const Field = (props: any) => {
   }
 
   useEffect(() => {
-    props.sdk.window.updateHeight(400);
-    // Handler for external field value changes.
-    // Callback for changes of the field value.
-    
+    props.sdk.window.updateHeight(400);    
   })
 
   return <Editor
-  apiKey='imnh9rw9d2di202xhvrrls396z0di9582tj4q9oedgh3v0rs' 
+  apiKey="imnh9rw9d2di202xhvrrls396z0di9582tj4q9oedgh3v0rs"
   initialValue="<p>This is the initial content of the editor</p>"
   init={{
     height: 200,

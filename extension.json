@@ -1,0 +1,9 @@
+{
+    "id": "Contentful Formula Editor",
+    "name": "Contentful Formula Editor",
+    "src": "https://contentful-formula-editor.netlify.app",
+    "fieldTypes": ["Text"],
+    "parameters": {
+      "installation": []
+    }
+  }

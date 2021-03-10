@@ -13,11 +13,7 @@ import '@contentful/forma-36-fcss/dist/styles.css';
 import '@contentful/forma-36-tokens/dist/css/index.css';
 import './index.css';
 
-import Config from './components/ConfigScreen';
-import Page from './components/Page';
-import Sidebar from './components/Sidebar';
 import Field from './components/Field';
-import Dialog from './components/Dialog';
 
 import LocalhostWarning from './components/LocalhostWarning';
 
@@ -34,12 +30,8 @@ if (process.env.NODE_ENV === 'development' && window.self === window.top) {
     // Dont forget to delete the file too :)
     const ComponentLocationSettings = [
       {
-        location: locations.LOCATION_APP_CONFIG,
-        component: <Config sdk={(sdk as unknown) as AppExtensionSDK} />
-      },
-      {
         location: locations.LOCATION_ENTRY_FIELD,
-        component: <div className="test-field-component"><Field sdk={sdk as FieldExtensionSDK} /></div>
+        component: <Field sdk={sdk as FieldExtensionSDK} />
       }
     ];
 
