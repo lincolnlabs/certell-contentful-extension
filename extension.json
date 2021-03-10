@@ -1,6 +1,6 @@
 {
-    "id": "Contentful Formula Editor",
-    "name": "Contentful Formula Editor",
+    "id": "Formula Editor (Math & Chemistry)",
+    "name": "Formula Editor (Math & Chemistry)",
     "src": "https://contentful-formula-editor.netlify.app",
     "fieldTypes": ["Text"],
     "parameters": {
